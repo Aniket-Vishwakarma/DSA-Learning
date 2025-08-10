@@ -1,7 +1,7 @@
 #include<bits/stdc++.h>
 using namespace std;
 
-class Solution {
+class Solve {
   public:
     int solve(int buy  , int count , int k , int index , int n , int *a , vector<vector<vector<int>>> &dp){
         if(count == k) return 0;
